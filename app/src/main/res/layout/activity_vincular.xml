@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busca dispositivos para encontrar contactos"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBuscar"
+        android:text="Buscar dispositivos"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dispositivos encontrados"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dispositivos sin encontrar"
+        android:id="@+id/mensaje"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:id="@+id/listaDispositivos"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dispositivos emparejados"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:id="@+id/listaEparejados"
+        />
+
+</LinearLayout>

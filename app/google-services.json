@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076249196106",
+    "project_id": "asistencias-dc703",
+    "storage_bucket": "asistencias-dc703.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076249196106:android:b269fc5d4f20f3fd9318b3",
+        "android_client_info": {
+          "package_name": "com.example.asistencia_alumno_edsson_18401179"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076249196106-etoatmcdn49lsgim218dl35toik0piru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnXst8a7SdV4o14uQqdXIG7NkA-Swv2YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076249196106-etoatmcdn49lsgim218dl35toik0piru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
